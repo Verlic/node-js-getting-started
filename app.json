@@ -6,6 +6,6 @@
   "keywords": ["node", "express", "static"],
   "image": "heroku/nodejs",
   "scripts": {
-    "postdeploy": "git --version"
+    "postdeploy": "git clone https://github.com/Verlic/HerokuTest.git"
   }
 }
